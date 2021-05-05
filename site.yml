@@ -1,0 +1,4 @@
+- hosts: Ansible-test-Webserver(auto)
+  become: yes
+  roles:
+    - nginx_install
